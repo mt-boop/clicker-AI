@@ -18,6 +18,6 @@ public class WhenPressed : MonoBehaviour
 
     void OnPressed()
     {
-        scoreManager.AddScore(1);
+        scoreManager.Click();
     }
 }
